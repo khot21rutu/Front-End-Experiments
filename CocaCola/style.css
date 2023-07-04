@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: gilroy;
+    color: #fff;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+}
+
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+
+#nav{
+    height: 140px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    padding: 0 50px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-prt2{
+    display: flex;
+    /* background-color: blue; */
+    width: 45%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav h1{
+    font-size: 20px;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+}
+
+#nav>i{
+    font-size: 20px;
+    margin-right: 5px;
+
+}
+
+#nav h5{
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: capitalize;
+
+}
+
+#nav img{
+    height: 50px;
+}
+
+#line{
+    width: 80px;
+    height: 2px;
+    background-color: red;
+}
+
+#content{
+    height: calc(100% - 140px);
+    width: 100%;
+    /* background-color: lightblue; */
+    display: flex;
+}
+
+#left{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+    padding: 100px 80px;
+    
+}
+#right{
+    width: 36%;
+    height: 100%;
+    /* background-color: red; */
+}
+#center{
+    width: 28%;
+    height: 100%;
+    background-color:red;
+    padding-top: 30px;
+}
+#left h1{
+    font-size: 40px;
+    line-height: 40px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+#left h1 span{
+    color: red;
+    font-weight: 500;
+}
+#left p{
+    margin-bottom: 0px;
+    font-size: 18px;
+    width: 70%;
+    line-height: 24px;
+}
+#left button{
+    background-color: red;
+    padding: 20px 42px;
+    border-radius: 50px;
+    font-size: 18px;
+    display: flex;
+    align-items: center;
+    font-weight: 700;
+}
+#left button i{
+    margin-right: 10px;
+}
+#center-bg{
+    background-color: blue;
+    height: 85%;
+    width: 100%;
+    border-top-left-radius: 1000px;
+    border-top-left-radius: 1000px;
+    border-top-right-radius: 1000px;
+}
